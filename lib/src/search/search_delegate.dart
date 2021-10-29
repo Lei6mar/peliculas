@@ -75,22 +75,5 @@ class DataSearch extends SearchDelegate {
         }
       },
     );
-
-    // final listaSugerida = (query.isEmpty)
-    //     ? peliculasRecientes
-    //     : peliculas
-    //         .where((p) => p.toLoweCase().startsWith(query.toLowerCase())
-    //         ).toList();
-
-    // return ListView.builder(
-    //   itemCount: listaSugerida.length,
-    //   itemBuilder: (context, i) {
-    //     return ListTile(
-    //       leading: Icon(Icons.movie),
-    //       title: Text(listaSugerida[i]),
-    //       onTap: () {},
-    //     );
-    //   },
-    // );
   }
 }
